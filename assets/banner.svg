@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-label="Ahmet Salih Kargın">
+  <title>Ahmet Salih Kargın</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#e6edf3" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0.9"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="900" height="230" rx="14"/></clipPath>
+    <clipPath id="type">
+      <rect x="177.0" y="160" width="0" height="30">
+        <animate attributeName="width" from="0" to="546.0" dur="2.92s" begin="0.6s" fill="freeze" calcMode="discrete"
+          values="0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6;126.0;134.4;142.8;151.2;159.6;168.0;176.4;184.8;193.2;201.6;210.0;218.4;226.8;235.2;243.6;252.0;260.4;268.8;277.2;285.6;294.0;302.4;310.8;319.2;327.6;336.0;344.4;352.8;361.2;369.6;378.0;386.4;394.8;403.2;411.6;420.0;428.4;436.8;445.2;453.6;462.0;470.4;478.8;487.2;495.6;504.0;512.4;520.8;529.2;537.6;546.0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="230" fill="#0d1117"/>
+    <rect width="900" height="230" fill="url(#grid)"/>
+    <rect width="900" height="230" fill="url(#glow)"/>
+    <rect width="900" height="230" fill="url(#fade)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="229" rx="14" fill="none" stroke="#30363d"/>
+
+  <text x="450.0" y="58" text-anchor="middle" fill="#3fb950" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="14">
+    <tspan fill="#8b949e">~$</tspan> whoami
+  </text>
+
+  <text x="450.0" y="112" text-anchor="middle" fill="#e6edf3" font-family="'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-0.5">Ahmet Salih Kargın</text>
+
+  <text x="450.0" y="146" text-anchor="middle" fill="#c9d1d9" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="0.5"><tspan>Cybersecurity</tspan><tspan fill="#30363d">  /  </tspan><tspan>Software Development</tspan><tspan fill="#30363d">  /  </tspan><tspan>42 Istanbul</tspan></text>
+
+  <g font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="14">
+    <text x="177.0" y="182" fill="#7ee787" clip-path="url(#type)" textLength="546.0" lengthAdjust="spacingAndGlyphs">Building. Learning. Breaking things. Understanding how they work.</text>
+    <rect x="177.0" y="169" width="8" height="17" fill="#7ee787">
+      <animate attributeName="x" dur="2.92s" begin="0.6s" fill="freeze" calcMode="discrete"
+        values="177.0;185.4;193.8;202.2;210.6;219.0;227.4;235.8;244.2;252.6;261.0;269.4;277.8;286.2;294.6;303.0;311.4;319.8;328.2;336.6;345.0;353.4;361.8;370.2;378.6;387.0;395.4;403.8;412.2;420.6;429.0;437.4;445.8;454.2;462.6;471.0;479.4;487.8;496.2;504.6;513.0;521.4;529.8;538.2;546.6;555.0;563.4;571.8;580.2;588.6;597.0;605.4;613.8;622.2;630.6;639.0;647.4;655.8;664.2;672.6;681.0;689.4;697.8;706.2;714.6;723.0"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

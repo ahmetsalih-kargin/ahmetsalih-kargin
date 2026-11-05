@@ -1,6 +1,5 @@
-requests==2.32.3
-beautifulsoup4==4.12.3
 pillow
 numpy
+# Sadece scripts/prep_photo.py (arka plan silme) için:
 opencv-python
 rembg
